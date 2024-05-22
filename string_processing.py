@@ -4,7 +4,7 @@ def reverse_string(input):
     
     result = ""
     for i in range(0, len(input)):
-        result = result + input[len(input) - i - 1]
+        result = result + input[- i - 1]
     return result
 
 def reverse_sentence(input):
